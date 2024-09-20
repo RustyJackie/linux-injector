@@ -15,15 +15,6 @@ This Python script allows you to inject a shared library (.so files) into any ru
 - gdb installed
 - Sudo privileges
 
-## Installation
-
-Clone this repository and make the script executable:
-
-```bash
-git clone https://github.com/yourusername/linux-injector.git
-cd linux-injector
-chmod +x injector.py
-
 ## Usage
 
 To use the injector, follow these steps:
@@ -35,3 +26,13 @@ To use the injector, follow these steps:
 3. **Run the Injector**: Use the following command to inject the library into the desired process:
    ```bash
    sudo python3 injector.py <pid> <path_to_library>
+
+## Installation
+
+Clone this repository and make the script executable:
+
+```bash
+git clone https://github.com/yourusername/linux-injector.git
+cd linux-injector
+chmod +x injector.py
+
