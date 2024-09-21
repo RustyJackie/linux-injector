@@ -32,7 +32,7 @@ To use the injector, follow these steps:
 Clone this repository and make the script executable:
 
 ```bash
-git clone https://github.com/yourusername/linux-injector.git
+git clone https://github.com/rustyjackie/linux-injector.git
 cd linux-injector
 chmod +x injector.py
 
